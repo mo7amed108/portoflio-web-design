@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header-content h1{
+    font-weight: 600;
+    font-size:72px;
+}
+.h3-animation::after{
+    content: " |";
+    animation: typing 4s infinite;
+
+    
+   
+    
+}
+@keyframes typing {
+    0%{ content:"D|"}
+    2%{ content:"De|"}
+    4%{ content: "Dev|"}
+    6%{ content: "Deve|";}
+    8%{ content: "Devel|";}
+    10%{ content: "Develo|";}
+    12%{ content: "Develop|";}
+    14%{ content: "Develope|";}
+    16%{ content: "Developer|";}
+    18%{ content: "Develope|";}
+    20%{ content: "Develop|";}
+    22%{ content: "Develo|";}
+    24%{ content: "Devel|";}
+    26%{ content: "Deve|";}
+    28%{ content: "Dev|";}
+    30%{ content: "De|";}
+    32%{ content: "D|";}
+    34%{ content: "De|";}
+    36%{ content: "Des|";}
+    38%{ content: "Desi|";}
+    40%{ content: "Desig|";}
+    42%{ content: "Design|";}
+    44%{ content: "Designe|";}
+    46%{ content: "Designer|";}
+    48%{ content: "Designe|";}
+    50%{ content: "Design|";}
+    52%{ content: "Desig|";}
+    54%{ content: "Desi|";}
+    56%{ content: "Des|";}
+    58%{ content: "De|";}
+    60%{ content: "D|";}
+    62%{ content: " |";}
+    64%{ content: "f|";}
+    66%{ content: "fr|";}
+    68%{ content: "fre|";}
+    70%{ content: "free|";}
+    72%{ content: "free l|";}
+    74%{ content: "free la|";}
+    76%{ content: "free lan|";}
+    78%{ content: "free lanc|";}
+    80%{ content: "free lance|";}
+    82%{ content: "free lancer|";}
+    84%{ content: "free lance|";}
+    86%{ content: "free lanc|";}
+    88%{ content: "free lan|";}
+    90%{ content: "free la|";}
+    92%{ content: "free l|";}
+    94%{ content: "free|";}
+    95%{ content: "fre|";}
+    97%{ content: "fr|";}
+    99%{ content: "f|";}
+    100%{ content: "|";}
+}
+.line{
+    width: 2rem;
+    height: 2px;
+    background-color: white;
+}
+.line-hover{
+    width: 0rem;
+    height: 2px;
+    transition: all 0.3s;
+    text-align: center;
+ 
+}
+.nav-item:hover .line-hover{
+    /* height: 2px; */
+    width: 2.5rem;
+    background-color: white;
+}
+/*  */
+.about{
+    background-color: #f5f5f5;
+}
+.span{
+    font-weight: bolder;
+}
+.html-color{
+    width: 85%;
+    height: 10px;
+    background-color: #09c;
+}
+.html-color-white{
+    width: 15%;
+    height: 10px;
+    background-color: #cde1f8;
+}
+.CSS3-color{
+    width: 75%;
+    height: 10px;
+    background-color: #09c;
+}
+.CSS3-color-white{
+    width: 25%;
+    height: 10px;
+    background-color: #cde1f8;
+}
+.PHP-color{
+    width: 50%;
+    height: 10px;
+    background-color: #09c;
+}
+.PHP-color-white{
+    width: 50%;
+    height: 10px;
+    background-color: #cde1f8;
+}
+.js-color{
+    width: 90%;
+    height: 10px;
+    background-color: #09c;
+}
+.js-color-white{
+    width: 10%;
+    height: 10px;
+    background-color: #cde1f8;
+}
+.line-h2{
+    width: 6rem;
+    height: 3px;
+    background-color: #0078ff;
+}
+/*  */
+.services-line{
+    width: 3rem;
+    height: 5px;
+    background-color: #0078ff;
+}
+.circle-border{
+    width: 8rem;
+    height: 8rem;
+    border: solid 10px #09c;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+.services-hover:hover .circle-border{
+    border: solid 10px #cde1f8;
+    background-color: #09c;
+}
+/*  */
+.bg-postion-fix{
+    background-image:url(../images/counters-bg.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.bg-postion-fix-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+/*  */
+.PORTFOLIO-p{
+    color: #09c;
+}
+.PORTFOLIO{
+    
+    overflow: hidden;
+
+}
+.test{
+    transition: all 0.5s;
+    
+}
+.PORTFOLIO:hover .test{
+    transform: scale(1.2);
+}
+/*  */
+
+.slider{
+    background-image:url(../images/overlay-bg.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+/*  */
